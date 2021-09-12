@@ -340,6 +340,8 @@ bank1:
  gpio26: power (active high)
  gpio28: WPS (red)
 bank2:
+ gpio8: wireless button(out)
+ gpio9: wps button(out)
  gpio16: WPS (green)
 */
 
@@ -347,7 +349,7 @@ bank2:
 change the bit to 0 to set GPIO to output*/
 #define HGG420N_GPP_OUT_ENA_LOW 0x80080000/*you can find it at f1018104*/
 #define HGG420N_GPP_OUT_ENA_MID 0x69390000/*you can find it at f1018144*/
-#define HGG420N_GPP_OUT_ENA_HIGH 0x00000100/*you can find it at f1018184*/
+#define HGG420N_GPP_OUT_ENA_HIGH 0x00000300/*you can find it at f1018184*/
 
 /*this section controls the default level of each GPIO*/
 #define HGG420N_GPP_OUT_VAL_LOW  0x01a00000/*you can find it at f1018100*/
