@@ -2896,7 +2896,7 @@ hgg420n_config: unconfig
 	@echo "#define HGG420N" >> $(obj)include/config.h
 	@echo "#define MV_BOOTSIZE_512K" >> $(obj)include/config.h
 	@echo "#define MV_BOOTROM" >> $(obj)include/config.h
-	@echo "MV_DDR_FREQ=533_128m" >> $(obj)include/config.mk
+	@echo "MV_DDR_FREQ=hgg420n_128m" >> $(obj)include/config.mk
 	@echo "NAND_TECH=S" >> $(obj)include/config.mk
 	@echo "  * Configured for HGG420N"
 
