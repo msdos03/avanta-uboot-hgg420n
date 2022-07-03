@@ -340,8 +340,8 @@ bank1:
  gpio26: power (active high)
  gpio28: WPS (red)
 bank2:
+ gpio4: wps button(out)
  gpio8: wireless button(out)
- gpio9: wps button(out)
  gpio16: WPS (green)
 */
 
